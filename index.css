@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #6cd0f7ee; 
+}
+
+header {
+    background-color: #333; 
+    color: rgb(38, 18, 184); 
+    padding: 20px; 
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px; 
+}
+section button{
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    font-size: 20px; 
+
+}
+section button:hover {
+    background-color: #8b7878; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 14px; 
+}
+
+nav ul li a:hover {
+    color: #31188a;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(103, 131, 206); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 30px; 
+    color: #333; 
+}
+
+form {
+    display: grid; 
+    gap: 10px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+form label {
+    font-size: 20px; 
+}
+
+form input, form textarea {
+    width: 80%; 
+    padding: 10px; 
+    font-size: 15px; 
+}
+.contenido{
+    color: #333;
+    background-repeat: no-repeat;
+}
+.contactomensaje{
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal; 
+    color: #2c3e50; 
+    letter-spacing: 2px; 
+    
+}
+
+
+
+form button {
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    font-size: 20px; 
+}
+
+form button:hover {
+    background-color: #b1aaaa; 
+}
+
+#mensaje-enviado {
+    color: green; 
+    font-weight: bold; 
+    display: none; 
+    font-size: 30px; 
+}
+
+footer {
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
